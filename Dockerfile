@@ -1,4 +1,4 @@
-FROM openmaptiles/postgis:2.9
+FROM adonig/postgis:latest
 MAINTAINER "Lukas Martinelli <me@lukasmartinelli.ch>"
 
 ENV IMPORT_DATA_DIR=/import \
